@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee9dbd2f39444dfa6c5423c829d56fc, type: 3}
+  m_Name: stairs
+  m_EditorClassIdentifier: 
+  _nextLevelName: second
+  _whiteSpawnPosition: {x: -6, y: 1.5}
+  _blackSpawnPosition: {x: -6, y: -1.5}
+  _blocks:
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 7, y: 4}
+    _position: {x: -3.5, y: -2}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 1, y: 5}
+    _position: {x: -7.5, y: 2.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 7, y: 4}
+    _position: {x: -3.5, y: 2}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 1, y: 5}
+    _position: {x: -7.5, y: -2.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 8, y: 1}
+    _position: {x: 4, y: -0.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 7, y: 1}
+    _position: {x: 4.5, y: -1.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 6, y: 1}
+    _position: {x: 5, y: -2.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 1, y: 2}
+    _position: {x: 7.5, y: -4}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 14, y: 1}
+    _position: {x: 0, y: -4.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 1, y: 3}
+    _position: {x: 0.5, y: -2.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 1, y: 2}
+    _position: {x: 1.5, y: -3}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 5, y: 1}
+    _position: {x: 4.5, y: -3.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 8, y: 1}
+    _position: {x: 4, y: 0.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 7, y: 1}
+    _position: {x: 4.5, y: 1.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 15, y: 1}
+    _position: {x: 0.5, y: 4.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 6, y: 1}
+    _position: {x: 5, y: 2.5}
+    _orderInLayer: 0
+  - _layer: 8
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _scale: {x: 1, y: 1}
+    _position: {x: 7.5, y: 3.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 7, y: 1}
+    _position: {x: 3.5, y: 3.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 2, y: 1}
+    _position: {x: 1, y: 2.5}
+    _orderInLayer: 0
+  - _layer: 9
+    _color: {r: 0, g: 0, b: 0, a: 1}
+    _scale: {x: 1, y: 1}
+    _position: {x: 0.5, y: 1.5}
+    _orderInLayer: 0
+  _exits:
+  - {x: 6.5, y: 3.5}
+  - {x: 6.5, y: -3.5}
+  _malus: []
